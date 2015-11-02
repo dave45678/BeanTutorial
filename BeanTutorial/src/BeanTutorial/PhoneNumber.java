@@ -1,5 +1,8 @@
 package BeanTutorial;
-public class PhoneNumber {
+
+import java.io.Serializable;
+
+public class PhoneNumber implements Serializable{
 	private String std;
 	private String number;
 	

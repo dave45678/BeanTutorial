@@ -15,7 +15,7 @@
 
 <table border="1">
 	<tr>
-		<td>${person.name}</td>
+		<td>${person.getName()}</td>
 		<td>${person.age}</td>
 		<td>${person["address"].line1}</td>
 		<td>${person["address"].town}</td>

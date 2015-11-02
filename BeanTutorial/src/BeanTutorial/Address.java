@@ -1,8 +1,9 @@
 package BeanTutorial;
 
 import java.util.ArrayList;
+import java.io.Serializable;
 
-public class Address {
+public class Address implements Serializable {
 	private String line1;
 	private String town;
 	private String county;
